@@ -17,7 +17,8 @@
     border-radius: 200px;
 }
 
-.seven{
+p, h1.seven{
     border: 5px solid red;
     border-width: 10px 2px 20px 4px 
 }
+
