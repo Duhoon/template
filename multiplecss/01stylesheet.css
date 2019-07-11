@@ -1,0 +1,21 @@
+.banner {
+    background-color:green;
+    color : white;
+    border-radius: 6px;
+}
+
+.homepage {
+    color : black;
+}
+
+h1.det {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+p.det {
+    padding-left: 5px;
+    margin-top: 0px;
+    padding-bottom: 15px;
+}
