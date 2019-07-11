@@ -1,0 +1,23 @@
+.one {
+    border-style: dotted;
+    border-width: 20px;
+}
+
+.four {
+    border-bottom: 6px dotted red;
+    border-width: thick;
+    text-align: center;
+    font-family: Verdana;
+    margin : 500px 0px 200px 0px;
+}
+
+.five {
+    border: 2px double red;
+    height: 50px;
+    border-radius: 200px;
+}
+
+.seven{
+    border: 5px solid red;
+    border-width: 10px 2px 20px 4px 
+}
