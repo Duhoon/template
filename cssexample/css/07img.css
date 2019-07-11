@@ -1,0 +1,10 @@
+.box {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+
+.imag {
+    width:350px;
+    height:263px;
+}
