@@ -16,7 +16,43 @@ h1.det {
 
 p.det {
     padding-left: 10px;
-    margin-top: 0px;
     padding-bottom: 15px;
+    margin-top: 0px;
 }
 
+ul {
+    list-style-type: none;
+    padding-inline-start: 10px;
+}
+
+ul a li{
+    background-color: ghostwhite;
+    border : solid lightgrey 2px;
+    border-radius : 5px;
+    height: 30px;
+    width:  200px;
+    margin-bottom : 2px;
+    color : black;
+    padding-top : 5px;
+}
+
+ul a li:hover {
+    background-color: grey;
+    border : solid lightgrey 2px;
+    border-radius : 5px;
+    height: 30px;
+    width:  200px;
+    margin-bottom : 2px;
+    color : black;
+    padding-top : 5px;
+}
+
+
+
+
+ul a li.select {
+    background-color : green;
+    font-size : 21px;
+    padding-top : 0px;
+    height: 30px;
+}
