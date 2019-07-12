@@ -31,7 +31,7 @@ ul {
 
 ul li {
     height: 30px;
-    margin-bottom : 0px;
+    margin-bottom : 2px;
     background-color: ghostwhite;
     border : solid lightgrey 2px;
     border-radius : 5px;
@@ -91,7 +91,7 @@ span{
 .side {
     background-color:skyblue;
     color: white;
-    padding : 5px;
+    padding-left : 5px;
 }
 
 .sdie h2, p {
