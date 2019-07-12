@@ -1,3 +1,5 @@
+body { margin: 0;}
+
 .banner {
     background-color:green;
     color : white;
@@ -12,6 +14,7 @@ h1.det {
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 p.det {
@@ -46,14 +49,14 @@ ul li a{
 }
 
 
-/*
-ul li.select a  {
+
+ul li.select {
     background-color : green;
-    font-size : 21px;
     padding-top : 0px;
     height: 30px;
+    color: white;
 }
-*/
+
 table {
     width : 100%;
     border-collapse : collapse;
