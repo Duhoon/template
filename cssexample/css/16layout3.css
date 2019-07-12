@@ -1,0 +1,17 @@
+* { box-sizing: border-box;}
+
+/* border-box 라는 특성은 박스의 크기를 border까지로 설정한다.*/
+
+.column{float: left;
+         padding: 10px;
+         border: 1px solid red;
+
+}
+
+/* 전체넓이를 100%로 했을 때 각각의 구성요소가 얼마나 차지할지 계산하고
+지정해주면 좋을 것 같다. */
+.column.side{ width: 25% }
+
+.column.middle{ width: 50% }
+
+.row{display:inline;}
