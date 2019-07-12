@@ -32,16 +32,12 @@ ul {
     display: inline-block;
 }
 
-ul li {
+ul li a{
     height: 30px;
     margin-bottom : 2px;
     background-color: ghostwhite;
     border : solid lightgrey 2px;
     border-radius : 5px;
-    text-align:middle;
-}
-
-ul li a{
     width:  300px;
     margin-bottom : 5px;
     color : black;
@@ -50,7 +46,7 @@ ul li a{
 
 
 
-ul li.select {
+ul li.select a {
     background-color : green;
     padding-top : 0px;
     height: 30px;
