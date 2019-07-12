@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body { margin: 0;}
 
 .banner {
@@ -27,21 +29,21 @@ p.det {
 ul {
     list-style-type: none;
     padding-inline-start: 2px;
-    width: 15%;
     margin: 0px 0px 0px 0px ;
     display: inline-block;
 }
 
 ul li a{
-    height: 30px;
+    height: 25px;
     margin-bottom : 2px;
     background-color: ghostwhite;
     border : solid lightgrey 2px;
     border-radius : 5px;
-    width:  300px;
-    margin-bottom : 5px;
+    margin-bottom : 3px;
     color : black;
     text-decoration: none;
+    display : block;
+    padding : 3px;
 }
 
 ul li.select a {
@@ -101,4 +103,18 @@ span{
     background-color : lightgrey;
     border-radius : 5px;
 
+}
+
+.row {
+    display : inline;
+}
+
+.column.middle{
+                display: inline-block;
+                width : 50%;
+}
+
+.column.sidemenu {
+                display: inline-block;
+                width: 25%;
 }
