@@ -1,0 +1,7 @@
+div > section > a > p {
+    background-color: yellow;
+}
+
+div p {
+    background-color: red;
+}
